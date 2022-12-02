@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { ThemeProvider } from "styled-components";
-import Entry from "./components/Entry";
+import App from "./components/App";
 import { GlobalStyles } from "./styles";
 import theme from "./styles/theme";
 
@@ -11,6 +11,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <ThemeProvider theme={theme}>
     <GlobalStyles />
-    <Entry />
+    <App />
   </ThemeProvider>
 );
